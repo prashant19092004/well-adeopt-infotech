@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.hero_section{
+    background: url(../../assets/herobg.gif);
+    background-size: cover;
+    background-position: center;
+}
+
+.overlay_div{
+    background-image: radial-gradient(at top center, #0A011880 10%, #0A0118 85%);
+    /* background-color: red; */
+}
+
+
+
