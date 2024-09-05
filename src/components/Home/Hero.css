@@ -15,5 +15,12 @@
     /* background-color: red; */
 }
 
+.nav_section{
+    border-bottom: 1px solid rgba(128, 128, 128, 0.098);
+}
 
+.about_img_div{
+    /* background-color: red; */
+    border: 1px solid rgba(128, 128, 128, 0.318);
+}
 

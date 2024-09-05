@@ -4,7 +4,7 @@ import Navbar from './components/Navbar'
 
 const Layout = () => {
   return (
-    <div className='overflow-hidden'>
+    <div className='overflow-hidden bg-[#0a0118]'>
       <Navbar />
       <Outlet />
     </div>
