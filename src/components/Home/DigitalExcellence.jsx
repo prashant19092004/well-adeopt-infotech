@@ -2,31 +2,22 @@ import React from 'react';
 
 const DigitalExcellence = () => {
   return (
-    <div className="bg-gray-900 text-white font-sans min-h-screen flex items-center justify-center">
-      <div className="container mx-auto p-8">
+    <div className="bg-gray-900 relative digital_div bg-[url('https://theme.creativemox.com/digimax/wp-content/uploads/sites/7/2024/01/bg_pattern.png')] text-white font-sans min-h-screen flex items-center justify-center">
+      <div className="container mx-auto py-8 px-4 sm:px-8 z-10">
         <div className="grid grid-cols-1 lg:grid-cols-5 gap-8">
           {/* Left Section (Our Value) */}
-          <div className="col-span-3 relative bg-gray-800 rounded-2xl p-8 shadow-lg">
-            <span className="text-pink-500 uppercase font-bold text-sm">Our Value</span>
-            <h1 className="text-4xl font-bold mt-4">
+          <div className="col-span-3 flex flex-col justify-end relative bg-[url('https://theme.creativemox.com/digimax/wp-content/uploads/sites/7/2024/01/computer-screens-with-data.jpg')] bg-cover bg-center rounded-2xl py-8 px-4 sm:px-8 shadow-lg">
+            <div id='digital_first_block' className='rounded-2xl'></div>
+            <span className="text-pink-500 z-10 relative uppercase font-bold text-sm">Our Value</span>
+            <h1 className="text-xl sm:text-2xl md:text-3xl lg:text-4xl font-bold mt-4 z-10 relative">
               Smart Designs, Sharp Results - Choose Digimax for Digital Excellence.
             </h1>
-            <p className="text-gray-400 mt-4">
+            <p className="text-gray-400 mt-4 z-10 relative">
               Neque sodales elementum fames ac nunc pellentesque penatibus. Consectetur donec nascetur fames metus est faucibus sodales commodo natoque consequat fusce.
             </p>
-            <button className="mt-8 bg-gradient-to-r from-pink-500 to-purple-600 text-white py-2 px-6 rounded-full hover:opacity-90 transition">
+            <button className="mt-8 bg-gradient-to-r relative z-10 from-pink-500 to-purple-600 text-white py-2 px-6 rounded-full hover:opacity-90 transition w-40">
               Learn More
             </button>
-            {/* Overlay arrow circle */}
-            <div className="absolute top-8 right-8 w-10 h-10 bg-purple-700 rounded-full flex items-center justify-center text-white">
-              <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" viewBox="0 0 20 20" fill="currentColor">
-                <path
-                  fillRule="evenodd"
-                  d="M10 5a1 1 0 011 1v6a1 1 0 102 0V6a1 1 0 011-1h5a1 1 0 000-2h-6a1 1 0 00-1 1v6a1 1 0 11-2 0V6a1 1 0 00-1-1H5a1 1 0 000 2h5z"
-                  clipRule="evenodd"
-                />
-              </svg>
-            </div>
           </div>
 
           {/* Right Section (Our Vision and Our Mission) */}
@@ -40,16 +31,6 @@ const DigitalExcellence = () => {
               <p className="text-gray-300 mt-4">
                 Ac neque commodo litora nam mattis platea dui molestie aenean integer potenti imperdiet class semper.
               </p>
-              {/* Overlay arrow circle */}
-              <div className="absolute top-8 right-8 w-10 h-10 bg-gray-700 rounded-full flex items-center justify-center text-white">
-                <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" viewBox="0 0 20 20" fill="currentColor">
-                  <path
-                    fillRule="evenodd"
-                    d="M10 5a1 1 0 011 1v6a1 1 0 102 0V6a1 1 0 011-1h5a1 1 0 000-2h-6a1 1 0 00-1 1v6a1 1 0 11-2 0V6a1 1 0 00-1-1H5a1 1 0 000 2h5z"
-                    clipRule="evenodd"
-                  />
-                </svg>
-              </div>
             </div>
 
             {/* Our Mission Card */}
@@ -61,16 +42,6 @@ const DigitalExcellence = () => {
               <p className="text-gray-300 mt-4">
                 Ac neque commodo litora nam mattis platea dui molestie aenean integer potenti imperdiet class semper.
               </p>
-              {/* Overlay arrow circle */}
-              <div className="absolute top-8 right-8 w-10 h-10 bg-gray-700 rounded-full flex items-center justify-center text-white">
-                <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" viewBox="0 0 20 20" fill="currentColor">
-                  <path
-                    fillRule="evenodd"
-                    d="M10 5a1 1 0 011 1v6a1 1 0 102 0V6a1 1 0 011-1h5a1 1 0 000-2h-6a1 1 0 00-1 1v6a1 1 0 11-2 0V6a1 1 0 00-1-1H5a1 1 0 000 2h5z"
-                    clipRule="evenodd"
-                  />
-                </svg>
-              </div>
             </div>
           </div>
         </div>
